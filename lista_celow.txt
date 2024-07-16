@@ -1,0 +1,43 @@
+Wojciech Kaczmarek
+
+Cele:
+
+Pocięta strona ma wypełniać całe okno przeglądarki (nie zamykać contentu w kontenerze o stałej szerokości). Przy reponsywności możesz zastosować dowolne breakpointy, samemu uznaj jak będzie najlepiej.
+
+- Zrobione
+
+Header powinien być na stałe przyklejony do topu, Logo HTML5 w headerze powinno linkować do '/' .
+
+- Zrobione
+
+Stopka strony w przypadku małej ilości treści w contencie powinna i tak być na samym dole strony a nie 'doklejać' się pod contentem.
+
+- Zrobione
+
+W bloku pierwszym są radiobuttony, ich wybór a następnie kliknięcie przycisku w bloku drugim wykona akcję podmiany lub doklejenia tekstu w bloku ostatnim. Treści które mają zostać użyte należy pobrać z JSONa (szczegóły niżej). Opcja pierwsza wybierze zawsze treść pierwszą, opcja druga drugą a opcja losowa dowolną z pozostałych. Każda osobna treść w ostatnim bloku powinna być objęta tagiem
+
+- Zrobione
+
+. Doklejając treść należy uniknąć powielania już istniejącej treści (w przypadku użycia opcji losowej należy wylosować kolejną jeszcze nie użytą treść).
+
+- Zrobione
+
+Button 'pokaż' w footerze po kliknięciu pokazuje ramkę (wysuwa ją spod footera) z 2 klikalnymi opcjami. Pierwsza przywraca stronę do początkowych ustawień, druga w headerze dokleja Twoje imię i nazwisko.
+
+- Niedokończone
+
+Plik JSON:
+
+- Użyty
+
+Warunki spełnione:
+
+- Brak bootstrapa itp.
+- użyty SCSS
+- Zmiany w stylu dla ekranów mniejszych niż 960px
+
+Dodatkowe plusy:
+- Vue.js użytty jako framework
+- Obrót CSS IS AWESOME
+- Użycie jednstek rem, vh,vw
+- Brak możliwości dodania ponownie tego samego
